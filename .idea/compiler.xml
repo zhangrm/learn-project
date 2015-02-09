@@ -22,6 +22,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
+        <module name="module-j2se" />
         <module name="module-pattern" />
         <module name="module-spi" />
       </profile>
