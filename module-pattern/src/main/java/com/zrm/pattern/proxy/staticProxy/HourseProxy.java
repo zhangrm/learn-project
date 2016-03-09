@@ -1,7 +1,7 @@
 package com.zrm.pattern.proxy.staticProxy;
 
 /**
- * Created by dfb365009 on 2015/1/16.
+ * Created by zrm on 2015/1/16.
  */
 public class HourseProxy implements Subject {
 
