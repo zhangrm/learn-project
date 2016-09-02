@@ -12,7 +12,21 @@
         <module>module-spi</module>
         <module>module-pattern</module>
         <module>module-j2se</module>
+        <module>module-jvm</module>
     </modules>
+
+    <properties>
+        <junit.version>4.9</junit.version>
+    </properties>
+
+    <dependencies>
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>${junit.version}</version>
+            <scope>test</scope>
+        </dependency>
+    </dependencies>
 
 
 </project>
